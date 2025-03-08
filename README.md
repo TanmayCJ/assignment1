@@ -69,29 +69,6 @@ The Django backend provides the following functionalities:
 * **API Endpoints:** Implements CRUD (Create, Read, Update, Delete) operations for sustainability actions through RESTful API endpoints.
 * **Data Storage:** Uses a database (e.g., SQLite) to store sustainability action data.
 
-### Backend API Endpoints
-
-* **`GET /api/actions/`:** Retrieves a list of all sustainability actions.
-* **`POST /api/actions/add/`:** Creates a new sustainability action.
-    * **Request body (JSON):**
-        ```json
-        {
-          "action": "Plant a tree",
-          "date": "2023-11-01",
-          "points": 10
-        }
-        ```
-* **`PUT /api/actions/<action_id>/`:** Updates an existing sustainability action.
-    * **Request body (JSON):**
-        ```json
-        {
-          "action": "Plant two trees",
-          "date": "2023-11-02",
-          "points": 20
-        }
-        ```
-* **`DELETE /api/actions/<action_id>/delete/`:** Deletes a sustainability action.
-
 ## Usage
 
 1.  **Start the Django backend server:**
