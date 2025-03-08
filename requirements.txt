@@ -1,0 +1,5 @@
+Django==4.2.7  # Or whatever version you installed
+sqlparse==0.4.4 # Or the version you have
+asgiref==3.7.2 # Or the version you have
+pytz==2023.3.post1 # Or the version you have
+
